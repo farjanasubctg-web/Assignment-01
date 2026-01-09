@@ -1,58 +1,67 @@
-body{
-    front font-family:Arial, sans-serif;
-    margin: 0;
-    padding:0;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
-.navbar{
-    background:#333;
-    color:white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.navbar {
+  background: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.navbar a,navbar button{
-    margin: 10px;
-    color: white;
-    text-decoration: none;
+
+.navbar a, .navbar button {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
 }
-.banner{
-    background: #f0f0f0;
-    text-align: center;
-    padding: 40px;
+
+.banner {
+  background: #f0f0f0;
+  text-align: center;
+  padding: 40px;
 }
-.problem,.solution,.cta{
-    padding: 30px;
-    text-align: center;
+
+.problem, .solution, .cta {
+  padding: 30px;
+  text-align: center;
 }
-.cards{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
-.card{
-    background: #eee;
-    padding: 20px; 
-    width: 200px;
-    border-radius: 8px;
-}   
-.solution ul{
-    list-style-type: disc;
-    text-align: left;
-    max-width: 600px;
-    margin: 0 auto;
+
+.card {
+  background: #eee;
+  padding: 20px;
+  width: 200px;
+  border-radius: 8px;
 }
-.cta button{
-    background: green;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 6px;
+
+.solution ul {
+  list-style-type: disc;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
 }
-.footer{
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
+
+.cta button {
+  background: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+}
+
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
