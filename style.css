@@ -273,3 +273,13 @@ body {
   .banner h1 { font-size: 32px; }
   .cards { grid-template-columns: 1fr; }
 }
+.logo-box {
+  text-align: left;     
+  margin: 20px ;    
+}
+
+.logo {
+  width: 150px;            
+  height: 10px;
+}
+
